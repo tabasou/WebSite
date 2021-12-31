@@ -75,6 +75,7 @@ p,
 .link a.linkPost,
 .post blockquote {
 margin-bottom: 10px;
+
 }
 a, ol.notes .action a {
 text-decoration: none;
@@ -109,16 +110,18 @@ color: {color:blog title and description};
 margin: 0;
 }
 #header .navigation {
-margin-left: 540px;
+margin-left: 530px;
 margin-top: 40px;
 position: fixed;
 text-transform:lowercase;
 color: {color:links};
 }
 #header .menu {
+margin-left: -20px;
 margin-bottom:10px;
 }
 #header .menu li {
+    /*list-style: none; */
 }
 #header .menu a {
 }
@@ -137,9 +140,13 @@ margin-top: 40px;
 }
 .posts {
 }
+#posts li{
+    list-style: none;
+}
 .post {
 padding:10px;
 margin-bottom:20px;
+margin-left:-40px;
 min-height:60px;
 background-color: {color:post background};
 color: {color:post text};
@@ -191,9 +198,10 @@ font-family: Trebuchet MS, Georgia;
 }
 .post blockquote, .quote blockquote blockquote {
 border-left: 2px solid #CCCCCC;
-padding: 5px 0 5px 10px;
+padding: 5px 0 5px 15px;
 margin: 5px 0;
 }
+
 .postBody ol {
 padding-left:25px;
 }
